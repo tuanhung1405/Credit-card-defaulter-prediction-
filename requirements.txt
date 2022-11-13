@@ -86,7 +86,6 @@ pyrsistent @ file:///C:/ci_310/pyrsistent_1642117077485/work
 PySocks @ file:///C:/ci_310/pysocks_1642089375450/work
 python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
 pytz @ file:///C:/Windows/TEMP/abs_90eacd4e-8eff-491e-b26e-f707eba2cbe1ujvbhqz1/croots/recipe/pytz_1654762631027/work
-pywin32==302
 pywinpty @ file:///C:/ci_310/pywinpty_1644230983541/work/target/wheels/pywinpty-2.0.2-cp310-none-win_amd64.whl
 PyYAML==6.0
 pyzmq @ file:///C:/ci/pyzmq_1657616000714/work
