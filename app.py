@@ -7,6 +7,7 @@ import webbrowser as wb
 import numpy as np
 import pandas as pd
 import streamlit as sl
+import streamlit.components.v1 as com
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
 
@@ -149,10 +150,15 @@ def main():
     # Multi transaction 
     sl.subheader('Please Download the Demo excel file')
     sl.text('Note:- enter the details of custome, save & Upload, Dont change to format.!')
-    down_bu=sl.button(label='Download Demo File')
-    # It is for download demo file
-    if down_bu:
-      open_link('https://drive.google.com/uc?export=download&id=10aYBUF50jjAWvi-ukZZE2Q6_8pbLoUon')
+    sl.text('https://drive.google.com/uc?export=download&id=10aYBUF50jjAWvi-ukZZE2Q6_8pbLoUon')
+    # HTML code for downloading demo file 
+    com.html(f"""<html>
+                  <body>
+                    <button onclick="window.location.href='https://drive.google.com/uc?export=download&id=10aYBUF50jjAWvi-ukZZE2Q6_8pbLoUon';">
+                      Download Demo File
+                    </button>
+                  </body>
+                </html>""")
     multi_cust(sl.file_uploader('Please Upload Excel file'))
 
 
