@@ -18,3 +18,6 @@ from Taiwan from April 2005 to September 2005.
 Link : https://www.kaggle.com/uciml/defaultof-credit-cardclients-dataset
 ******************************
 
+## Technologies Used
+
+![image](https://github.com/Praveen2135/Credit-card-defaulter-predction/blob/main/Capture.JPG)
