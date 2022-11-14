@@ -150,7 +150,6 @@ def main():
     # Multi transaction 
     sl.subheader('Please Download the Demo excel file')
     sl.text('Note:- enter the details of custome, save & Upload, Dont change to format.!')
-    sl.text('https://drive.google.com/uc?export=download&id=10aYBUF50jjAWvi-ukZZE2Q6_8pbLoUon')
     # HTML code for downloading demo file 
     com.html(f"""<button onclick="window.location.href='https://drive.google.com/uc?export=download&id=10aYBUF50jjAWvi-ukZZE2Q6_8pbLoUon';">
                       Download Demo File</button>""",height=30)
