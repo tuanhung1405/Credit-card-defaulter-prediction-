@@ -88,11 +88,11 @@ def pred_out(num):
 sl.title('Creadit Card Default Predction')
 
 # Selection 
-rad_b=sl.radio('Please select that you want give Single or Multiple customers data',options=['Singel','Multipel'])
+rad_b=sl.radio('Please select that you want give Single or Multiple customers data',options=['Single','Multiple'])
 
 # Body of the page using FORM
 def main():
-  if rad_b == 'Singel':
+  if rad_b == 'Single':
     form = sl.form('Customer Details')
     C_name = form.text_input('Name')
     col1,col2,col3 = form.columns(3)
